@@ -5,4 +5,5 @@ public class Cart {
   private String userName;
   private float cartTotal;
   private String itemNames;
+  private long cartNumber;
 }
