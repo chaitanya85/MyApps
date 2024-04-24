@@ -10,4 +10,6 @@ public class Cart {
   private String firstName;
   private String middleName;
   private String lastName;
+  private String mobile;
+  private String email;
 }
