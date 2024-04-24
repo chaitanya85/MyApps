@@ -1,9 +1,13 @@
 package com.retailbusiness.retail.business.entity;
 
 public class Cart {
+
+  private int id;
   private int userId;
-  private String userName;
-  private float cartTotal;
-  private String itemNames;
-  private long cartNumber;
+  private String sessionId;
+  private String token;
+  private int status;
+  private String firstName;
+  private String middleName;
+  private String lastName;
 }
