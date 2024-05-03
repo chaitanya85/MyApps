@@ -30,7 +30,7 @@ public class User {
     @Column(name = "registeredAt")
     private String registeredAt;
     @Column(name = "lastLogin")
-    private Timestamp lastLogin;
+    private String lastLogin;
     @Column(name = "intro")
     private String intro;
     @Column(name = "profile")
@@ -108,11 +108,11 @@ public class User {
         this.registeredAt = registeredAt;
     }
 
-    public Timestamp getLastLogin() {
+    public String getLastLogin() {
         return lastLogin;
     }
 
-    public void setLastLogin(Timestamp lastLogin) {
+    public void setLastLogin(String lastLogin) {
         this.lastLogin = lastLogin;
     }
 
